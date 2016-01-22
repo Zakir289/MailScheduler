@@ -13,8 +13,8 @@ var mail = {
 
     sendMail:function(req,res){
         transporter.sendMail({
-            from: 'zakir0559@gmail.com',
-            to: 'zakir.shaik@imaginea.com',
+            from: 'zakir0559@abc.com',
+            to: 'zakir.shaik@def.com',
             subject: 'hello',
             text: 'hello world!'
         },function(error, info){
